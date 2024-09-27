@@ -1,0 +1,216 @@
+
+@import '~bulma/bulma';
+
+/* -------------------------------
+   Reset básico para márgenes y rellenos
+----------------------------------- */
+
+* {
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina rellenos predeterminados */
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total */
+}
+
+/* -------------------------------
+   Estilos para el body y html
+----------------------------------- */
+
+html, body {
+    width: 100%; /* Asegura que el body ocupe todo el ancho */
+    height: 100%; /* Asegura que el body ocupe todo el alto */
+    font-family: 'Inter', sans-serif; /* Usando la fuente Inter */
+    background-color: #FFFFFF; /* Fondo blanco */
+}
+
+/* -------------------------------
+   Estilos para el Navbar
+----------------------------------- */
+
+.navbar {
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+/* Estilos personalizados para el navbar */
+.navbar-custom {
+    background-color: #ffffff; /* Beige claro para un fondo suave y elegante */
+    color: #2C3E50; /* Gris oscuro para el texto */
+}
+
+.navbar-custom .navbar-item {
+    color: #2C3E50; /* Color del texto de los links */
+}
+
+.navbar-custom .navbar-item.is-selected {
+    background-color: #A9A9A9; /* Gris claro para resaltar el link seleccionado */
+    color: #FFFFFF; /* Texto blanco cuando está seleccionado */
+}
+
+.navbar-custom .navbar-burger span {
+    background-color: #2C3E50; /* Color de las barras de la hamburguesa */
+}
+
+/* Estilos adicionales para hover */
+.navbar-custom .navbar-item:hover {
+    background-color: #2C3E50; /* Fondo gris claro al hacer hover */
+    color: #2C3E50;
+}
+
+/* -------------------------------
+   Estilos para el Footer
+----------------------------------- */
+
+.footer {
+    padding: 2rem 1.5rem; /* Espaciado interior */
+    background-color: #F5F5DC; /* Color de fondo del footer */
+    color: #2C3E50; /* Color del texto */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    position: relative; /* Posicionamiento relativo */
+    left: 0; /* Alineado a la izquierda */
+    right: 0; /* Alineado a la derecha */
+    margin: 0; /* Elimina márgenes exteriores */
+
+    .content {
+        max-width: 1200px; /* Limitar el ancho máximo */
+        margin: 0 auto; /* Centra el contenido dentro del footer */
+        text-align: center; /* Alinear texto al centro */
+    }
+
+    .social-icons {
+        margin: 1rem 0; /* Espaciado vertical para íconos */
+        
+        a {
+            margin: 0 10px; /* Espaciado entre íconos */
+            color: #2C3E50; /* Color de los íconos */
+            transition: color 0.2s; /* Transición al hacer hover */
+            
+            &:hover {
+                color: #00D1B2; /* Color al hacer hover */
+            }
+        }
+    }
+
+    .links {
+        margin-top: 1rem; /* Espaciado superior para enlaces */
+
+        a {
+            color: #2C3E50; /* Color del texto de los enlaces */
+            transition: color 0.2s; /* Transición al hacer hover */
+
+            &:hover {
+                color: #00D1B2; /* Color al hacer hover */
+            }
+        }
+    }
+}
+
+/* -------------------------------
+   Estilos para el Mapa
+----------------------------------- */
+
+.map-container {
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.map-container iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* -------------------------------
+   Estilos para Servicios
+----------------------------------- */
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-box {
+    margin-bottom: 2rem;
+    text-align: center;
+    max-width: 100%;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+}
+
+.service-box .price {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+/* -------------------------------
+   Espaciado y Estilo del Título "Encuéntranos"
+----------------------------------- */
+
+.title-spacing {
+    margin-bottom: 2rem;
+}
+
+/* -------------------------------
+   Ajustar el contenido para que no quede debajo del navbar
+----------------------------------- */
+
+main {
+    padding-top: 3.25rem; /* Ajustar este valor según la altura del navbar */
+}
+
+/* -------------------------------
+   Estilos para la Sección de Imágenes con Superposición
+----------------------------------- */
+
+.image-container {
+    position: relative; /* Posiciona el contenedor de las imágenes */
+    display: flex; /* Alinea las imágenes en línea */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+}
+
+.image-container img {
+    width: 33.33%; /* Cada imagen ocupará un tercio del ancho */
+    height: 600px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta las imágenes sin distorsionarlas */
+}
+
+.overlay {
+    position: absolute; /* Superpone el texto sobre las imágenes */
+    top: 50%; /* Centra verticalmente el texto */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Ajusta para que el texto esté realmente centrado */
+    text-align: center; /* Centra el texto */
+    color: white; /* Color blanco para el texto */
+    z-index: 1; /* Asegura que el texto esté por encima de las imágenes */
+    
+    h1 {
+        font-size: 4rem; /* Aumenta el tamaño del título (ajustado) */
+        font-family: 'Playfair Display', serif; /* Cambia a una fuente acorde a sastrería */
+        font-weight: bold; /* Aumenta el grosor del título */
+        color: white; /* Asegúrate que el color sea blanco */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Agrega sombra para mejor contraste */
+    }
+    
+    p {
+        font-size: 2rem; /* Aumenta el tamaño del eslogan (ajustado) */
+        font-family: 'Playfair Display', serif; /* Cambia a una fuente acorde a sastrería */
+        color: white; /* Asegúrate que el color sea blanco */
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Agrega sombra para mejor contraste */
+    }
+}
+.logo{
+    padding: 5px;
+}
+.service-box {
+    margin-top: 3rem; // Ajusta este valor según sea necesario
+  }
+  
