@@ -12,16 +12,15 @@ export default function aboutPage() {
             <section className="section">
                 <div className="columns is-vcentered">
                     <div className="column is-half">
-                        <Image src="/about-us-image.jpg" alt="Taller de alteraciones" width={600} height={400} />
+                        <Image src="/blanca negocio.jpg" alt="Taller de alteraciones" width={600} height={400} />
                     </div>
                     <div className="column is-half">
-                        <h2 className="title is-4">Quiénes Somos</h2>
-                        <p>
-                        En <strong>Blanca Alterations</strong>, nos especializamos en ofrecer servicios de alteraciones y costura de la más alta calidad. Con más de 20 años de experiencia, 
-                        nuestro objetivo es garantizar que cada prenda se ajuste perfectamente a las necesidades de nuestros clientes.
+                        <h2 className="title is-4 mb-6">Who We Are</h2>
+                        <p className="mb-6">
+                        In <strong>Blanca's Alterations</strong>, We specialize in offering the highest quality alterations and sewing services. With experience and professionalism, our goal is to ensure that each garment fits perfectly to the needs of our customers.
                         </p>
                         <p>
-                        Somos un equipo apasionado por la moda y el detalle, comprometidos con la excelencia y la satisfacción del cliente en cada trabajo que realizamos.
+                        We are a team passionate about fashion and detail, committed to excellence and customer satisfaction in every job we do.
                         </p>
                     </div>
                 </div>
@@ -29,24 +28,24 @@ export default function aboutPage() {
 
         {/* Sección de valores */}
         <section className="section has-background-light">
-          <h2 className="title is-3 has-text-centered mb-5">Nuestros Valores</h2>
+          <h2 className="title is-2 has-text-centered mb-6">Our Values</h2>
           <div className="columns">
             <div className="column has-text-centered">
-              <h3 className="title is-5 mb-3">Calidad</h3>
+              <h3 className="title is-3 mb-4">Quality</h3>
               <p>
-                Utilizamos los mejores materiales y técnicas para asegurar que cada alteración sea precisa y de larga duración.
+              We use the best materials and techniques to ensure that each alteration is precise and long lasting.
               </p>
             </div>
             <div className="column has-text-centered">
-              <h3 className="title is-5 mb-3">Atención al Detalle</h3>
+              <h3 className="title is-3 mb-4">Attention to Detail</h3>
               <p>
-                Creemos que cada puntada cuenta. Nos aseguramos de que cada prenda se ajuste de forma perfecta a tu cuerpo.
+              We believe that every stitch counts. We make sure that each garment fits your body perfectly.
               </p>
             </div>
             <div className="column has-text-centered">
-              <h3 className="title is-5 mb-3">Satisfacción del Cliente</h3>
+              <h3 className="title is-3 mb-4">Customer Satisfaction</h3>
               <p>
-                Nuestro objetivo principal es asegurar que cada cliente esté completamente satisfecho con el trabajo realizado.
+                Our main goal is to ensure that each client is completely satisfied with the work performed.
               </p>
             </div>
           </div>
@@ -54,18 +53,18 @@ export default function aboutPage() {
 
         {/* Sección de historia */}
         <section className="section">
-          <h2 className="title is-3 has-text-centered mb-5">Nuestra Historia</h2>
+          <h2 className="title is-3 has-text-centered mb-5">Our History</h2>
           <p>
-            Fundado en 2003, Blanca Alterations nació del amor por la moda y el diseño personalizado. Empezamos como un pequeño taller familiar en Cathedral City y hemos crecido hasta convertirnos en un negocio de referencia en la zona, conocido por la calidad y el trato cercano a nuestros clientes.
+          We started as a small alterations business by fashion designer Blanca Canamero, a dressmaker who managed to keep her own brand afloat in a struggling country. She decided to build an alterations business using her knowledge as a dressmaker to become the best alterations business in the valley.
           </p>
         </section>
 
         {/* Sección de contacto */}
         <section className="section">
           <div className="has-text-centered">
-            <h2 className="title is-3 mb-5">¿Por qué Elegirnos?</h2>
+            <h2 className="title is-3 mb-5">Why choose us?</h2>
             <p>
-              En Blanca Alterations, nos esforzamos por ofrecer el mejor servicio de alteraciones, entregas rápidas y soluciones personalizadas para cada cliente. Contáctanos y descubre la diferencia de trabajar con expertos en alteraciones de ropa.
+            At Blanca Alterations, we strive to offer the best alterations service, fast deliveries and personalized solutions for each client. Contact us and discover the difference of working with experts in clothing alterations.
             </p>
           </div>
         </section>

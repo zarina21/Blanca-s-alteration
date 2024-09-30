@@ -32,8 +32,8 @@ const Navbar = () => {
                     <div className="navbar-end">
                         <a className={`navbar-item ${pathname === '/' ? 'is-selected' : ''}`} href="/"> Home </a>
                         <a className={`navbar-item ${pathname === '/About-us' ? 'is-selected' : ''}`} href="/About-us"> About us </a>
-                        <a className={`navbar-item ${pathname === '/Our-services' ? 'is-selected' : ''}`} href="/Our-services"> Our services </a>
-                        <a className={`navbar-item ${pathname === '/Contact' ? 'is-selected' : ''}`} href="/Contact"> Contact </a>
+                        <a className={`navbar-item ${pathname === '/blog' ? 'is-selected' : ''}`} href="/blog"> Blog </a>
+                        <a className={`navbar-item ${pathname === '/contact' ? 'is-selected' : ''}`} href="/contact"> Contact </a>
                     </div>
                 </div>
             </nav>
