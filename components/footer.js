@@ -10,9 +10,9 @@ const Footer = () => {
         <footer className="footer has-background-light">
             <div className="content has-text-centered">
                 <p>
-                    <strong>Blanca Alterations</strong><br />
+                    <strong>Blanca's Alterations</strong><br />
                     35250 Date Palm Dr Suite C, Cathedral City, CA 92234<br />
-                    Email: <a href="mailto:blancasclientservice@gmail.com">blancasclientservice@gmail.com</a>
+                    Email: <a href="mailto:blanca_contact@blancasalteration.com ">blanca_contact@blancasalteration.com </a>
                 </p>
                 <div className="social-icons">
                     <a href="https://www.facebook.com/alterationsdesert?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" className="icon is-large">

@@ -40,7 +40,7 @@ export default function PrivacyPolicy() {
                 <section className="section">
                     <h2 className="subtitle">Protection of Information</h2>
                     <p>
-                        We implement security measures to protect our customers' personal information. However, we cannot guarantee the absolute security of information transmitted over the Internet.
+                        We implement security measures to protect our customers personal information. However, we cannot guarantee the absolute security of information transmitted over the Internet.
                     </p>
                 </section>
 
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
                 <section className="section">
                     <h2 className="subtitle">Contact</h2>
                     <p>
-                        If you have any questions about this privacy policy, please feel free to contact us at blancasclientservice@gmail.com or +1 (442) 402-8197.
+                        If you have any questions about this privacy policy, please feel free to contact us at blanca_contact@blancasalteration.com  or +1 (442) 402-8197.
                     </p>
                 </section>
             </div>

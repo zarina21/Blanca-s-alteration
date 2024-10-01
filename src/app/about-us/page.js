@@ -6,7 +6,7 @@ export default function aboutPage() {
     return (
         <div>
         <div>
-            <h1 className="title is-2 has-text-centered">Sobre Nosotros</h1>
+            <h1 className="title is-2 has-text-centered">About us</h1>
 
             {/* Sección de introducción */}
             <section className="section">
@@ -20,7 +20,7 @@ export default function aboutPage() {
                         In <strong>Blanca's Alterations</strong>, We specialize in offering the highest quality alterations and sewing services. With experience and professionalism, our goal is to ensure that each garment fits perfectly to the needs of our customers.
                         </p>
                         <p>
-                        We are a team passionate about fashion and detail, committed to excellence and customer satisfaction in every job we do.
+                        We believe that every stitch counts. We make sure that each garment fits your body perfectly.
                         </p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export default function aboutPage() {
           <div className="has-text-centered">
             <h2 className="title is-3 mb-5">Why choose us?</h2>
             <p>
-            At Blanca Alterations, we strive to offer the best alterations service, fast deliveries and personalized solutions for each client. Contact us and discover the difference of working with experts in clothing alterations.
+            At Blanca's Alterations, we strive to offer the best alterations service, fast deliveries and personalized solutions for each client. Contact us and discover the difference of working with experts in clothing alterations.
             </p>
           </div>
         </section>

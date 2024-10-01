@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-
+import Image from 'next/image';
 const Navbar = () => {
     const pathname = usePathname();
     const [isActive, setIsActive] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
             <nav className="navbar is-fixed-top navbar-custom">
                 <div className="navbar-brand">
                     <a className="logo" href="/">
-                        <img src="/bc.png" alt="logo" width={50} height={50} />
+                        <Image src="/bc.png" alt="logo" width={50} height={50} />
                     </a>
                     <div 
                         className={`navbar-burger ${isActive ? 'is-active' : ''}`} 
@@ -31,7 +31,7 @@ const Navbar = () => {
                 <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id="navbarExampleTransparentExample">
                     <div className="navbar-end">
                         <a className={`navbar-item ${pathname === '/' ? 'is-selected' : ''}`} href="/"> Home </a>
-                        <a className={`navbar-item ${pathname === '/About-us' ? 'is-selected' : ''}`} href="/About-us"> About us </a>
+                        <a className={`navbar-item ${pathname === '/about-us' ? 'is-selected' : ''}`} href="/about-us"> About us </a>
                         <a className={`navbar-item ${pathname === '/blog' ? 'is-selected' : ''}`} href="/blog"> Blog </a>
                         <a className={`navbar-item ${pathname === '/contact' ? 'is-selected' : ''}`} href="/contact"> Contact </a>
                     </div>

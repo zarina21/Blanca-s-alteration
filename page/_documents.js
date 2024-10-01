@@ -5,8 +5,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* Aquí puedes agregar la fuente de Google */}
-          <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+          {/* Aquí puedes agregar tus fuentes personalizadas */}
         </Head>
         <body>
           <Main />
@@ -18,3 +17,4 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
