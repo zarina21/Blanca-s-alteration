@@ -8,7 +8,7 @@ export default function TermsAndConditions() {
                 <section className="section">
                     <h2 className="subtitle">Introduction</h2>
                     <p>
-                        Welcome to Blanca's Alterations! By using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
+                        Welcome to "Blanca's Alterations"! By using our services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.
                     </p>
                 </section>
 
@@ -43,7 +43,7 @@ export default function TermsAndConditions() {
                 <section className="section">
                     <h2 className="subtitle">Liability</h2>
                     <p>
-                        While we strive to provide the best possible services, Blanca's Alterations is not responsible for any damage that may occur to your clothing during the alteration process.
+                        While we strive to provide the best possible services, "Blanca's Alterations" is not responsible for any damage that may occur to your clothing during the alteration process.
                     </p>
                 </section>
 
