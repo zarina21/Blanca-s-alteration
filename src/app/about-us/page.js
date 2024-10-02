@@ -17,7 +17,7 @@ export default function aboutPage() {
                     <div className="column is-half">
                         <h2 className="title is-4 mb-6">Who We Are</h2>
                         <p className="mb-6">
-                        In <strong>"Blanca's Alterations"</strong>, We specialize in offering the highest quality alterations and sewing services. With experience and professionalism, our goal is to ensure that each garment fits perfectly to the needs of our customers.
+                        In <strong>Blanca&apos;s Alteration"</strong>, We specialize in offering the highest quality alterations and sewing services. With experience and professionalism, our goal is to ensure that each garment fits perfectly to the needs of our customers.
                         </p>
                         <p>
                         We believe that every stitch counts. We make sure that each garment fits your body perfectly.
@@ -64,7 +64,7 @@ export default function aboutPage() {
           <div className="has-text-centered">
             <h2 className="title is-3 mb-5">Why choose us?</h2>
             <p>
-            At "Blanca's Alterations", we strive to offer the best alterations service, fast deliveries and personalized solutions for each client. Contact us and discover the difference of working with experts in clothing alterations.
+            At Blanca&apos;s Alterations, we strive to offer the best alterations service, fast deliveries and personalized solutions for each client. Contact us and discover the difference of working with experts in clothing alterations.
             </p>
           </div>
         </section>

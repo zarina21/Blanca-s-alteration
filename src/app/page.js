@@ -23,7 +23,7 @@ const HomePage = () => {
           <Image src="/telas.png" alt="Imagen 2" width={1200} height={600} />
           <Image src="/hilos.png" alt="Imagen 3" width={1200} height={600} />
           <div className="overlay">
-            <h1 className="title is-0">"Blanca's Alterations"</h1>
+            <h1 className="title is-0">Blanca'&apos; Alterations</h1>
             <p className="subtitle is-4">Adapt your clothes to your style</p>
           </div>
         </div>
@@ -92,7 +92,7 @@ const HomePage = () => {
           </div>
           <div className="column is-half">
             <h3 className="title is-4 mb-5">Jacket alterations</h3>
-            <p>The shoulders, being the architectural cornerstone of a jacket, require an expert hand to fit. Trying to reshape them is akin to reshaping one is destiny, an intricate matter best approached with caution. The symphony of points and structure woven into a shoulder demands reverence. Be aware of the dangers of trying to resize, which is often not recommended. It is a path fraught with complexities, like navigating through the intricate tapestry of life. However, if the need arises to recalibrate the padding, there is a great possibility. Removing the padding gives your jacket a touch of Neapolitan nonchalance, while increasing the padding pays homage to a more rugged British silhouette.</p>
+            <p>The shoulders, being the architectural cornerstone of a jacket, require an expert hand to fit. Trying to reshape them is akin to reshaping ones destiny, an intricate matter best approached with caution. The symphony of points and structure woven into a shoulder demands reverence. Be aware of the dangers of trying to resize, which is often not recommended. It is a path fraught with complexities, like navigating through the intricate tapestry of life. However, if the need arises to recalibrate the padding, there is a great possibility. Removing the padding gives your jacket a touch of Neapolitan nonchalance, while increasing the padding pays homage to a more rugged British silhouette.</p>
           </div>
         </div>
 

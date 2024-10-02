@@ -43,7 +43,7 @@ export default function TermsAndConditions() {
                 <section className="section">
                     <h2 className="subtitle">Liability</h2>
                     <p>
-                        While we strive to provide the best possible services, "Blanca's Alterations" is not responsible for any damage that may occur to your clothing during the alteration process.
+                        While we strive to provide the best possible services, Blanca&apos;s Alterations is not responsible for any damage that may occur to your clothing during the alteration process.
                     </p>
                 </section>
 

@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
                 <section className="section">
                     <h2 className="subtitle">Introduction</h2>
                     <p>
-                        At Blanca's Alterations, we are committed to protecting the privacy of our customers. This privacy policy describes how we collect, use, and protect the personal information obtained from our clients.
+                        At Blanca&apos;s Alterations, we are committed to protecting the privacy of our customers. This privacy policy describes how we collect, use, and protect the personal information obtained from our clients.
                     </p>
                 </section>
 
