@@ -23,7 +23,7 @@ const HomePage = () => {
           <Image src="/telas.png" alt="Imagen 2" width={1200} height={600} />
           <Image src="/hilos.png" alt="Imagen 3" width={1200} height={600} />
           <div className="overlay">
-            <h1 className="title is-0">Blanca'&apos; Alterations</h1>
+            <h1 className="title is-0">Blanca&#39;s Alterations</h1>
             <p className="subtitle is-4">Adapt your clothes to your style</p>
           </div>
         </div>
