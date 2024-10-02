@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* Aquí puedes agregar tus fuentes personalizadas */}
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />
@@ -17,4 +17,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
-

@@ -12,7 +12,7 @@ export default function aboutPage() {
             <section className="section">
                 <div className="columns is-vcentered">
                     <div className="column is-half">
-                        <Image src="/public/blanca negocio.jpg" alt="Taller de alteraciones" width={600} height={400} />
+                        <Image src="/blanca negocio.jpg" alt="Taller de alteraciones" width={600} height={400} />
                     </div>
                     <div className="column is-half">
                         <h2 className="title is-4 mb-6">Who We Are</h2>

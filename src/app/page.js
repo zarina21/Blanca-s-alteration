@@ -19,9 +19,9 @@ const HomePage = () => {
       {/* Sección de imágenes con superposición */}
       <section className="section has-text-centered">
         <div className="image-container">
-          <Image src="/public/sastre2.png" alt="Imagen 1" width={1200} height={600} />
-          <Image src="/public/telas.png" alt="Imagen 2" width={1200} height={600} />
-          <Image src="/public/hilos.png" alt="Imagen 3" width={1200} height={600} />
+          <Image src="/sastre2.png" alt="Imagen 1" width={1200} height={600} />
+          <Image src="/telas.png" alt="Imagen 2" width={1200} height={600} />
+          <Image src="/hilos.png" alt="Imagen 3" width={1200} height={600} />
           <div className="overlay">
             <h1 className="title is-0">Blanca&#39;s Alterations</h1>
             <p className="subtitle is-4">Adapt your clothes to your style</p>
@@ -78,7 +78,7 @@ const HomePage = () => {
         {/* Servicio 1 */}
         <div className="columns is-vcentered service-box">
           <div className="column is-half">
-            <Image src="/public/bastilla.png" alt="Servicio 1" width={600} height={400} />
+            <Image src="/bastilla.png" alt="Servicio 1" width={600} height={400} />
           </div>
           <div className="column is-half">
             <h3 className="title is-4 mb-5">Pant hemming</h3>
@@ -88,7 +88,7 @@ const HomePage = () => {
         {/* Servicio 2 */}
         <div className="columns is-vcentered service-box">
           <div className="column is-half">
-            <Image src="/public/jackethombro.png" alt="Servicio 2" width={600} height={400} />
+            <Image src="/jackethombro.png" alt="Servicio 2" width={600} height={400} />
           </div>
           <div className="column is-half">
             <h3 className="title is-4 mb-5">Jacket alterations</h3>
@@ -99,7 +99,7 @@ const HomePage = () => {
         {/* Servicio 3 */}
         <div className="columns is-vcentered service-box">
           <div className="column is-half">
-            <Image src="/public/simpledress.png" alt="Servicio 3" width={600} height={400} />
+            <Image src="/simpledress.png" alt="Servicio 3" width={600} height={400} />
           </div>
           <div className="column is-half">
             <h3 className="title is-4 mb-5">Simple dress</h3>
