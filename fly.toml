@@ -5,6 +5,13 @@
 
 app = 'alteraciones'
 primary_region = 'lax'
+[[services.http_checks]]
+http_path = "/"
+host = "blancasalteration.com"
+
+[[services]]
+internal_port = 8080
+protocol = "tcp"
 
 [build]
 
