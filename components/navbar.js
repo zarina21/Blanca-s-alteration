@@ -1,7 +1,6 @@
 'use client'; // Asegura que el componente es un Client Component
 
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
 import Image from 'next/image';
 const Navbar = () => {
     const pathname = usePathname();
