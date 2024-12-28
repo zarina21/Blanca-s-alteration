@@ -1,10 +1,11 @@
 'use client'; // Asegura que el componente es un Client Component
+import React, { useState } from 'react';
 
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 const Navbar = () => {
     const pathname = usePathname();
-    const [isActive, setIsActive] = useState(false);
+    const [isActive, setIsActive] = useState(false); 
 
     const toggleMenu = () => {
         setIsActive(!isActive);
